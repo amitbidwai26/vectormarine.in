@@ -1,0 +1,281 @@
+/*-- Typography-Page-Styling --*/
+.typography {
+	padding: 25px 0 50px;
+	font-weight:normal;
+}
+.typography  h2.page-header.text-center {
+	text-align:center;
+	padding: 0px 0 30px;
+    margin-top: 1px;
+}
+.typography .form-control {
+	background-color:transparent;
+}
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+	text-align: left;
+}
+.typography h1 {
+	color:#000;
+	font-size:36px;
+}
+.typography h2 {
+	color:#000;
+	font-size:30px;
+}
+.typography h3 {
+	color:#000;
+	font-size:24px;
+}
+.typography h4 {
+	color:#000;
+	font-size:18px;
+}
+.typography h5 {
+	color:#000;
+	font-size:14px;
+}
+.typography h6 {
+	color:#000;
+	font-size:12px;
+}
+.typography .show-grid [class^=col-] {
+	background: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 2em;
+	border: 10px solid #f0f0f0;
+}
+.typography .show-grid [class*="col-"]:hover {
+	background: #e0e0e0;
+}
+.typography .grid_3 {
+	margin-bottom: 2em;
+}
+.typography .xs h3,.typography h3.m_1 {
+	color: #000;
+	font-size: 1.7em;
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+.typography .grid_3 p {
+	color: #000;
+	font-size: 0.85em;
+	margin-bottom: 1em;
+	font-weight: 300;
+}
+.typography .grid_4 {
+	background: none;
+	margin-top: 50px;
+}
+.typography .label {
+	font-weight: 300 !important;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.typography .grid_5 {
+	background: none;
+	padding: 2em 0;
+}
+.typography .grid_5 h3,.typography  .grid_5 h2,.typography .grid_5 h1,.typography .grid_5 h4,.typography .grid_5 h5,.typography  h3.hdg {
+    margin-bottom: 1em;
+    color: #ffb400;
+}
+.typography .table > thead > tr > th,.typography .table > tbody > tr > th,.typography .table > tfoot > tr > th,.typography .table > thead > tr > td,.typography .table > tbody > tr > td,.typography .table > tfoot > tr > td {
+	border-top: none !important;
+}
+.typography .tab-content > .active {
+	display: block;
+	visibility: visible;
+}
+.typography .pagination > .active > a,.typography .pagination > .active > span,.typography .pagination > .active > a:hover,.typography .pagination > .active > span:hover,.typography .pagination > .active > a:focus,.typography .pagination > .active > span:focus {
+	z-index: 0;
+}
+.typography .badge-primary {
+	background-color: #03a9f4;
+}
+.typography .badge-success {
+	background-color: #8bc34a;
+}
+.typography .badge-warning {
+	background-color: #ffc107;
+}
+.typography .badge-danger {
+	background-color: #e51c23;
+}
+.typography .grid_3 p {
+	line-height: 2em;
+	color: #000;
+	font-size: 0.9em;
+	margin-bottom: 1em;
+	font-weight: 300;
+}
+.typography .bs-docs-example {
+	margin: 1em 0;
+}
+.typography section#tables p {
+	margin-top: 1em;
+}
+.typography .tab-container .tab-content {
+	border-radius: 0 2px 2px 2px;
+	border: 1px solid #e0e0e0;
+	padding: 16px;
+	background-color: #ffffff;
+}
+.typography .table td,.typography .table>tbody>tr>td,.typography .table>tbody>tr>th,.typography .table>tfoot>tr>td,.typography .table>tfoot>tr>th,.typography .table>thead>tr>td,.typography .table>thead>tr>th {
+	padding: 15px!important;
+}
+.typography .table > thead > tr > th,.typography .table > tbody > tr > th,.typography .table > tfoot > tr > th,.typography .table > thead > tr > td,.typography .table > tbody > tr > td,.typography .table > tfoot > tr > td {
+	font-size: 0.9em;
+	color: #000;
+	border-top: none !important;
+}
+.typography .tab-content > .active {
+	display: block;
+	visibility: visible;
+}
+.typography .label {
+	font-weight: 300 !important;
+}
+.typography .label {
+	padding: 4px 6px;
+	border: none;
+	text-shadow: none;
+}
+.typography .nav-tabs {
+	margin-bottom: 1em;
+}
+.typography .alert {
+	font-size: 0.85em;
+}
+.typography h1.t-button,.typography h2.t-button,.typography h3.t-button,.typography h4.t-button,.typography h5.t-button {
+	line-height: 1.8em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.typography li.list-group-item1 {
+	line-height: 2.5em;
+}
+.typography .input-group {
+	margin-bottom: 20px;
+}
+.typography .in-gp-tl {
+	padding: 0;
+}
+.typography .in-gp-tb {
+	padding-right: 0;
+}
+.typography .list-group {
+	margin-bottom: 48px;
+}
+.typography ol {
+	margin-bottom: 44px;
+}
+.typography h2.typoh2 {
+	margin: 0 0 10px;
+}
+
+
+/*-- RESPONSIVE WEBDESIGN --*/
+
+@media screen and (max-width: 1366px) {
+	.typography .grid_3.grid_4 {
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.typography .grid_5 {
+		padding: 0 0 1em;
+	}
+	.typography .grid_3 {
+		margin-bottom: 0em;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.typography h1,.typography .h1,.typography h2,.typography .h2,.typography h3,.typography .h3 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.typography .grid_5 h3,.typography .grid_5 h2,.typography .grid_5 h1,.typography .grid_5 h4,.typography .grid_5 h5,.typography h3.hdg,.typography h3.bars {
+		margin-bottom: .5em;
+	}
+	.typography .progress {
+		height: 10px;
+		margin-bottom: 10px;
+	}
+	.typography ol.breadcrumb li,.typography .grid_3 p,.typography ul.list-group li,.typography li.list-group-item1 {
+		font-size: 14px;
+	}
+	.typography .breadcrumb {
+		margin-bottom: 10px;
+	}
+	.typography .well {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.typography h2.typoh2 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.typography .table h1 {
+		font-size: 26px;
+	}
+	.typography .table h2 {
+		font-size: 23px;
+	}
+	.typography .table h3 {
+		font-size: 20px;
+	}
+	.typography .label {
+		font-size: 53%;
+	}
+	.typography .alert,p {
+		font-size: 14px;
+	}
+	.typography .pagination {
+		margin: 20px 0 0px;
+	}
+	.typography .grid_4 {
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.typography .grid_4 {
+		margin-top: 18px;
+	}
+	.typography h3.title {
+		font-size: 1.6em;
+	}
+	.typography .alert,.typography p,.typography ol.breadcrumb li,.typography .grid_3 p,.typography .well,.typography ul.list-group li,.typography li.list-group-item1,.typography a.list-group-item {
+		font-size: 13px;
+	}
+	.typography .alert {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.typography ul.pagination li a {
+		font-size: 14px;
+		padding: 5px 11px;
+	}
+	.typography .list-group {
+		margin-bottom: 10px;
+	}
+	.typography .well {
+		padding: 10px;
+	}
+	.typography .nav > li > a {
+		font-size: 14px;
+	}
+	.typography table.table.table-striped,.typography .table-bordered,.typography .bs-docs-example {
+		display: none;
+	}
+	.typography .table h1 {
+    font-size: 25px;
+}
+}
+/*-- //Typography-Page-Styling --*/
